@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* CSS del HEADER*/
+header{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #ffffff;
+}
+
+.headercontenedor{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 20px;
+
+}
+
+.mainheader{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.logo{
+    height: 100px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 650px; 
+}
+
+.containernav{
+    height: 100px;
+    width: 500px;
+    position: relative;
+}
+
+nav{
+    height: 100%;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    margin:  0px 20px;
+    list-style: none;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.verde{
+    background: #4FCE78;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+}
+
+/*Desarrollo*/
+
+.main-info-curso{
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    background-color:#1c1d1f;
+}
+
+.info-curso{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: rgb(45, 47, 45);
+}
+
+.info-curso-name{
+    width: 800px;
+    height: 400px;
+    background-color: #1c1d1f;
+}
+
+.info-curso-name h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.info-curso-name h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.info-curso-name h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: white;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.info-curso-video{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1c1d1f;
+}
+
+.video{
+    width: 400px;
+    height: 200px;
+    margin-top: 100px;
+    background-color: tomato;
+}
+
+.video iframe{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.info-video{
+    width: 400px;
+    height: 100px;
+    background-color:white;
+}
+
+.info-video h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+
+.info-video h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center; 
+    color: red;
+}
+
+.main-descrip-curso{
+    width: 100%;
+    height: 800px;
+    background-color:white;
+}
+
+.descrip-curso{
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.detalles-curso{
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:white;
+}
+
+.aprender{
+    margin-top: 100px;
+    width: 600px;
+    height: auto;
+    background-color: white;
+    border: solid 2px black;
+}
+
+.aprender h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color:black;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.aprender h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color:black;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-left: 35px;
+}
+
+
+.text-recomendado{
+    width: 800px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:white;
+}
+
+.text-recomendado h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+}
+
+.recomendado{
+    width: 600px;
+    height: 150px;
+    background-color: turquoise;
+
+}
+
+.detalles-lateral{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:rgb(209, 69, 69);
+}
+
+.botones-laterales{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    background-color:white;
+}
+
+.boton-one{
+    width: 300px;
+    height: 40px;
+    border: solid 2px red;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    background-color:red;
+
+}
+
+.boton-two{
+    width: 300px;   
+    height: 40px;
+    border: solid 2px green;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    background-color:green;
+}
+
+.boton-one button{
+    margin-top: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.boton-two button{
+    margin-top: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.solicitar-info{
+    width: 300px;
+    height: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: green;
+}
+
+.solicitar-texto{
+    width: 300px;
+    height: 15px;
+    background-color: hotpink;
+}
+
+.nombretext{
+    width: 100px;
+    height:15px
+}
+
+.compartir{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(197, 27, 112);
+}
+
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.containerfooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+    
+.boxfooter{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.boxfooter .terminos{
+    max-width: 250px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.boxfooter h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.boxfooter a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.boxfooter a :hover{
+    opacity: 0,8;
+}
+
+.logofooter img{
+    width: 50px;
+}
+
+/*Copyright ©*/
+.copy{
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.copy p {
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.copy hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+
+
+

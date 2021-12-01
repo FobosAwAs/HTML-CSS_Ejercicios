@@ -1,0 +1,31 @@
+
+    table,th,td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 7px;    
+        font-size: 25px;
+    }
+
+    .fecha{
+        text-align: center;
+        font-weight: bold;
+        writing-mode: vertical-lr;
+    }
+
+    #AwAs{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .n{
+        font-weight: bold;
+    }
+
+    .UnU{
+        background-color: gray;
+    }
+
+    .var{
+        text-align: left;
+    }
