@@ -253,8 +253,8 @@ nav ul li a{
     height: auto;
     display: flex;
     flex-wrap: wrap;
+    border: solid 2px gray;
     justify-content: center;
-    background-color:rgb(209, 69, 69);
 }
 
 .botones-laterales{
@@ -315,28 +315,96 @@ nav ul li a{
 }
 
 .solicitar-info{
-    width: 300px;
-    height: 50px;
+    width: 305px;
+    height: auto;
+    margin: auto;
     display:flex;
     flex-wrap: wrap;
-    background-color: green;
+    border: solid 2px gray;
 }
 
 .solicitar-texto{
     width: 300px;
-    height: 15px;
-    background-color: hotpink;
+    height: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
 }
 
 .nombretext{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
     width: 100px;
-    height:15px
+    height:25px;
 }
+
+.textnombre{
+    width: 200px;
+    height: 25px;
+}
+
+.correo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    width: 100px;
+    height:25px;
+}
+
+.textcorreo{
+    width: 200px;
+    height: 25px;   
+}
+
+.problemas{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+    width: 300px;
+    height: 25px;
+}
+
+.textproblema textarea{
+    margin: auto;
+}   
+
+.boton-solicitar{
+    width: 300px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center   ;
+}
+
+.boton-solicitar button{
+    margin-top: 6px;
+    padding: 2px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
 
 .compartir{
     width: 300px;
     height: 50px;
-    background-color: rgb(197, 27, 112);
+
+}
+
+.compartir h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+    
 }
 
 
